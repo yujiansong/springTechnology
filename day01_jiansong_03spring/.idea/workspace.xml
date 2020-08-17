@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fb324fe-dc77-42b2-a271-a3ba45b1ec1d" name="Default Changelist" comment="" />
+    <list default="true" id="b6181d04-2207-42eb-a9a6-12a134e1f654" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/ui/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,8 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -26,17 +32,17 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1gAlslIFIJCLCMelUKz36RZznk3" />
+  <component name="ProjectId" id="1gEXfKvwWj3m9E3K8yrjedpOpA3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/jiansong/dao/impl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\springTechnology\day01_jiansong_02factory\src\main\java\com\jiansong\dao\impl" />
+      <recent name="D:\springTechnology\day01_jiansong_03spring\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -54,7 +60,7 @@
   <component name="RunManager">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiansong.ui.Client" />
-      <module name="day01_jiansong_02factory" />
+      <module name="day01_jiansong_03spring" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jiansong.ui.*" />
@@ -76,13 +82,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4fb324fe-dc77-42b2-a271-a3ba45b1ec1d" name="Default Changelist" comment="" />
-      <created>1597565486389</created>
+      <changelist id="b6181d04-2207-42eb-a9a6-12a134e1f654" name="Default Changelist" comment="" />
+      <created>1597680827102</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597565486389</updated>
-      <workItem from="1597565490222" duration="6847000" />
-      <workItem from="1597680677531" duration="153000" />
+      <updated>1597680827102</updated>
+      <workItem from="1597680831840" duration="1627000" />
     </task>
     <servers />
   </component>
@@ -94,9 +99,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
