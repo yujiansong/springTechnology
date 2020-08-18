@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6181d04-2207-42eb-a9a6-12a134e1f654" name="Default Changelist" comment="" />
+    <list default="true" id="62605187-5b52-45b8-944c-76fe7162d600" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/factory/InstanceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/factory/StaticFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/ui/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -25,17 +32,21 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1gEXfKvwWj3m9E3K8yrjedpOpA3" />
+  <component name="ProjectId" id="1gHMzJxHjjBzjffeSOKiReaJqi9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jiansong.factory" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\springTechnology\day01_jiansong_03spring\src\main\java" />
+      <recent name="D:\springTechnology\day01_jiansong_04bean\src\main\resources" />
+      <recent name="D:\springTechnology\day01_jiansong_04bean\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -53,7 +64,7 @@
   <component name="RunManager">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiansong.ui.Client" />
-      <module name="day01_jiansong_03spring" />
+      <module name="day01_jiansong_04bean" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jiansong.ui.*" />
@@ -75,13 +86,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b6181d04-2207-42eb-a9a6-12a134e1f654" name="Default Changelist" comment="" />
-      <created>1597680827102</created>
+      <changelist id="62605187-5b52-45b8-944c-76fe7162d600" name="Default Changelist" comment="" />
+      <created>1597767325602</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597680827102</updated>
-      <workItem from="1597680831840" duration="2885000" />
-      <workItem from="1597763584406" duration="3030000" />
+      <updated>1597767325602</updated>
+      <workItem from="1597767330584" duration="1948000" />
     </task>
     <servers />
   </component>
@@ -93,33 +103,10 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jiansong/ui/Client.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jiansong/ui/Client.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jiansong/ui/Client.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
