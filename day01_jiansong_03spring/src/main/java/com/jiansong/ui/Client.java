@@ -33,18 +33,19 @@ public class Client {
      */
     public static void main(String[] args) {
         //1.获取核心容器对象
-//        ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
+        ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
 //        ApplicationContext ac = new FileSystemXmlApplicationContext("D:\\springTechnology\\day01_jiansong_03spring\\src\\main\\resources\\bean.xml");
         //2.根据id获取bean对象
-//        IAccountService as = (IAccountService) ac.getBean("accountService");
-//        IAccountDao adao = ac.getBean("accountDao", IAccountDao.class);
-//        System.out.println(as);
-//        System.out.println(adao);
+        IAccountService as = (IAccountService) ac.getBean("accountService");
+        IAccountDao adao = ac.getBean("accountDao", IAccountDao.class);
+        System.out.println(as);
+        System.out.println(adao);
+        as.saveAccount();
 
         //------BeanFactory------
-        Resource resource = new ClassPathResource("bean.xml");
-        BeanFactory factory = new XmlBeanFactory(resource);
-        IAccountService as = (IAccountService) factory.getBean("accountService");
-        System.out.println(as);
+//        Resource resource = new ClassPathResource("bean.xml");
+//        BeanFactory factory = new XmlBeanFactory(resource);
+//        IAccountService as = (IAccountService) factory.getBean("accountService");
+//        System.out.println(as);
     }
 }
