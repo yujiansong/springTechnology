@@ -23,12 +23,21 @@
     <!-- bean的作用范围调整
         bean标签的scope属性
         作用：指定bean的作用范围
-        取值：
-            singleton (单例-默认值)
-            prototype
-            request
-            session
-            global-session
+        取值：常用的是单例和多例
+            singleton 单例(默认值)
+            prototype 多例的
+            request 作用于web应用的请求范围
+            session 作用于web用用的会话范围
+            global-session 作用于集群环境的会话范围（全局会话范围），当不是集群时，它就是session
     -->
-    <bean id="accountService" class="com.jiansong.factory.StaticFactory" factory-method="getAccountService" scope="prototype"></bean>
+
+    <!-- bean对象的生命周期
+        单例对象：
+            出生：当容器创建时对象出生
+            活着：只要容器存在，对象一直活着
+            死亡：容器销毁，对象消亡
+            总结：单例对象的生命周期和容器相同
+    -->
+    <bean id="accountService" class="com.jiansong.factory.StaticFactory" factory-method="getAccountService"
+          scope="prototype" init-method="init" destroy-method="destroy"></bean>
 </beans>

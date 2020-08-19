@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62605187-5b52-45b8-944c-76fe7162d600" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiansong/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/service/impl/AccountServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jiansong/ui/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/ui/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jiansong/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiansong/service/impl/AccountServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jiansong/ui/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiansong/ui/Client.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597767325602</updated>
       <workItem from="1597767330584" duration="2086000" />
-      <workItem from="1597853046139" duration="966000" />
+      <workItem from="1597853046139" duration="2316000" />
     </task>
     <servers />
   </component>

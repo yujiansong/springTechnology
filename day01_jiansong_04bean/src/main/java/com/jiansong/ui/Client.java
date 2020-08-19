@@ -20,12 +20,15 @@ public class Client {
      */
     public static void main(String[] args) {
         //1.获取核心容器对象
-        ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
+//        ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
+        ClassPathXmlApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
         //2.根据id获取bean对象
         IAccountService as = (IAccountService) ac.getBean("accountService");
-        IAccountService as2 = (IAccountService) ac.getBean("accountService");
-//        as.saveAccount();
-        System.out.println(as == as2);
+//        IAccountService as2 = (IAccountService) ac.getBean("accountService");
+//        System.out.println(as == as2);
+        as.saveAccount();
+        //手动关闭容器
+        ac.close();
 
     }
 }
