@@ -45,7 +45,7 @@
     <!--配置一个日期对象-->
     <bean id="now" class="java.util.Date"></bean>
 
-    <!-- set方法注入
+    <!-- set方法注入(常用)
         涉及的标签：property
         出现的位置： bean方法内部
         标签的属性：
@@ -57,5 +57,48 @@
         <property name="name" value="yujiansong"></property>
         <property name="age" value="20"></property>
         <property name="birthday" ref="now"></property>
+    </bean>
+
+    <!-- 复杂类型的注入/集合类型的注入-->
+    <bean id="accountService3" class="com.jiansong.service.impl.AccountServiceImpl3">
+        <property name="myStrs">
+            <set>
+                <value>wanglaoer</value>
+                <value>yujiansong</value>
+                <value>laozheng</value>
+            </set>
+        </property>
+
+        <property name="myList">
+            <array>
+                <value>wangtianshi</value>
+                <value>bestJiansong</value>
+                <value>ouyanglin</value>
+            </array>
+        </property>
+
+        <property name="mySet">
+            <list>
+                <value>abc</value>
+                <value>def</value>
+                <value>ghi</value>
+            </list>
+        </property>
+
+        <property name="myMap">
+            <props>
+                <prop key="TestC">ccc</prop>
+                <prop key="TestD">ddd</prop>
+            </props>
+        </property>
+
+        <property name="myProperties">
+            <map>
+                <entry key="testA" value="aaa"></entry>
+                <entry key="testB">
+                    <value>bbb</value>
+                </entry>
+            </map>
+        </property>
     </bean>
 </beans>

@@ -58,4 +58,53 @@
         <property name="age" value="20"></property>
         <property name="birthday" ref="now"></property>
     </bean>
+
+    <!-- 复杂类型的注入/集合类型的注入
+        用于给List结构注入的标签：
+            list, map, set
+        用于给Map结构注入的标签：
+            map, props
+        结构相同，标签可以互换
+    -->
+    <bean id="accountService3" class="com.jiansong.service.impl.AccountServiceImpl3">
+        <property name="myStrs">
+            <set>
+                <value>wanglaoer</value>
+                <value>yujiansong</value>
+                <value>laozheng</value>
+            </set>
+        </property>
+
+        <property name="myList">
+            <array>
+                <value>wangtianshi</value>
+                <value>bestJiansong</value>
+                <value>ouyanglin</value>
+            </array>
+        </property>
+
+        <property name="mySet">
+            <list>
+                <value>abc</value>
+                <value>def</value>
+                <value>ghi</value>
+            </list>
+        </property>
+
+        <property name="myMap">
+            <props>
+                <prop key="TestC">ccc</prop>
+                <prop key="TestD">ddd</prop>
+            </props>
+        </property>
+
+        <property name="myProperties">
+            <map>
+                <entry key="testA" value="aaa"></entry>
+                <entry key="testB">
+                    <value>bbb</value>
+                </entry>
+            </map>
+        </property>
+    </bean>
 </beans>
