@@ -44,4 +44,18 @@
 
     <!--配置一个日期对象-->
     <bean id="now" class="java.util.Date"></bean>
+
+    <!-- set方法注入(常用)
+        涉及的标签：property
+        出现的位置： bean方法内部
+        标签的属性：
+            name: 用于指定时所注入的set方法名称
+            ref: 用于指定其他类型的bean对象，在spring的IOC核心容器中出现过的bean对象
+            value: 用于指定基本类型和String类型
+    -->
+    <bean id="accountService2" class="com.jiansong.service.impl.AccountServiceImpl2">
+        <property name="name" value="yujiansong"></property>
+        <property name="age" value="20"></property>
+        <property name="birthday" ref="now"></property>
+    </bean>
 </beans>
