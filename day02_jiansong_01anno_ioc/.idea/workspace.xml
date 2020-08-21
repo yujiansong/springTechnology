@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62605187-5b52-45b8-944c-76fe7162d600" name="Default Changelist" comment="" />
+    <list default="true" id="f7621352-de1d-4569-a7b6-81af8653ebde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/ui/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -25,7 +25,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1gHMzJxHjjBzjffeSOKiReaJqi9" />
+  <component name="ProjectId" id="1gOrQD0QW02SntL8bAK6VXXIx3J" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -34,12 +34,9 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.jiansong.factory" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\springTechnology\day01_jiansong_04bean\src\main\resources" />
-      <recent name="D:\springTechnology\day01_jiansong_04bean\src\main\java" />
+      <recent name="D:\springTechnology\day02_jiansong_01anno_ioc\src\main\resources" />
+      <recent name="D:\springTechnology\day02_jiansong_01anno_ioc\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -57,7 +54,7 @@
   <component name="RunManager">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiansong.ui.Client" />
-      <module name="day01_jiansong_04bean" />
+      <module name="day02_jiansong_01anno_ioc" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jiansong.ui.*" />
@@ -79,14 +76,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="62605187-5b52-45b8-944c-76fe7162d600" name="Default Changelist" comment="" />
-      <created>1597767325602</created>
+      <changelist id="f7621352-de1d-4569-a7b6-81af8653ebde" name="Default Changelist" comment="" />
+      <created>1597996461832</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597767325602</updated>
-      <workItem from="1597767330584" duration="2086000" />
-      <workItem from="1597853046139" duration="2316000" />
-      <workItem from="1597996278454" duration="183000" />
+      <updated>1597996461832</updated>
+      <workItem from="1597996465575" duration="3585000" />
     </task>
     <servers />
   </component>
@@ -98,9 +93,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
