@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7621352-de1d-4569-a7b6-81af8653ebde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/dao/IAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/ui/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/dao/impl/AccountDaoImpl2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiansong/dao/impl/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiansong/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiansong/ui/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/ui/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jiansong/dao/impl/AccountDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiansong/dao/impl/AccountDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jiansong/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiansong/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jiansong/ui/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiansong/ui/Client.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +35,9 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jiansong.dao.impl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\springTechnology\day02_jiansong_01anno_ioc\src\main\resources" />
       <recent name="D:\springTechnology\day02_jiansong_01anno_ioc\src\main\java" />
@@ -81,7 +85,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597996461832</updated>
-      <workItem from="1597996465575" duration="3585000" />
+      <workItem from="1597996465575" duration="4289000" />
+      <workItem from="1598173568526" duration="5087000" />
     </task>
     <servers />
   </component>
@@ -93,7 +98,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

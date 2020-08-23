@@ -6,9 +6,9 @@ import org.springframework.stereotype.Repository;
 /**
  * 账户持久实现类
  */
-@Repository(value = "accountDao1")
-public class AccountDaoImpl implements IAccountDao {
+@Repository(value = "accountDao2")
+public class AccountDaoImpl2 implements IAccountDao {
     public void saveAccount() {
-        System.out.println("保存了账户111111");
+        System.out.println("保存了账户222222");
     }
 }
