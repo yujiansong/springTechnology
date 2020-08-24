@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7621352-de1d-4569-a7b6-81af8653ebde" name="Default Changelist" comment="" />
+    <list default="true" id="54941f15-37d3-48b5-975d-da9b25b41233" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/service/impl/AccountServiceImpl.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -18,22 +32,12 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1gOrQD0QW02SntL8bAK6VXXIx3J" />
+  <component name="ProjectId" id="1gYETLAmRFELjdIFW9bjreC0cVy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.jiansong.dao.impl" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\springTechnology\day02_jiansong_01anno_ioc\src\main\resources" />
-      <recent name="D:\springTechnology\day02_jiansong_01anno_ioc\src\main\java" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,39 +51,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiansong.ui.Client" />
-      <module name="day02_jiansong_01anno_ioc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jiansong.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Client" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f7621352-de1d-4569-a7b6-81af8653ebde" name="Default Changelist" comment="" />
-      <created>1597996461832</created>
+      <changelist id="54941f15-37d3-48b5-975d-da9b25b41233" name="Default Changelist" comment="" />
+      <created>1598283131046</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597996461832</updated>
-      <workItem from="1597996465575" duration="4289000" />
-      <workItem from="1598173568526" duration="5214000" />
-      <workItem from="1598282981717" duration="151000" />
+      <updated>1598283131046</updated>
+      <workItem from="1598283134905" duration="2079000" />
     </task>
     <servers />
   </component>
@@ -91,9 +73,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
