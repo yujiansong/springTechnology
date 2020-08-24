@@ -53,7 +53,7 @@ public class AccountDaoImpl implements IAccountDao {
 
     public void deleteAccount(Integer accountId) {
         try {
-            runner.update("delete account where id = ?", accountId);
+            runner.update("delete from account where id = ?", accountId);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
