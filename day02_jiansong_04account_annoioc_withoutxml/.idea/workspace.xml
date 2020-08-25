@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a531276-2e0c-4d24-b270-97bbd408c839" name="Default Changelist" comment="" />
+    <list default="true" id="be785732-69cb-4ff6-8b71-be083b31ae0c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/SpringConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jiansong/test/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jiansong/test/QueryRunnerTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -18,22 +34,19 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1gb20fVf1AM6nIkhqUTNlawk9li" />
+  <component name="ProjectId" id="1gb4UyGCp2LSVsjWSRTCpep2ayU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\springTechnology\day02_jiansong_03account_annoioc\src\main\resources" />
-      <recent name="D:\springTechnology\day02_jiansong_03account_annoioc\src\test\java" />
-      <recent name="D:\springTechnology\day02_jiansong_03account_annoioc\src\main\java" />
+      <recent name="D:\springTechnology\day02_jiansong_04account_annoioc_withoutxml\src\test\java" />
+      <recent name="D:\springTechnology\day02_jiansong_04account_annoioc_withoutxml\src\main\resources" />
+      <recent name="D:\springTechnology\day02_jiansong_04account_annoioc_withoutxml\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -48,9 +61,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountServiceTest.testFindAll">
+  <component name="RunManager" selected="JUnit.QueryRunnerTest.testQueryRunner">
     <configuration name="AccountServiceTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day02_jiansong_03account_annoioc" />
+      <module name="day02_jiansong_04account_annoioc_withoutxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jiansong.test.*" />
@@ -66,7 +79,7 @@
       </method>
     </configuration>
     <configuration name="AccountServiceTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day02_jiansong_03account_annoioc" />
+      <module name="day02_jiansong_04account_annoioc_withoutxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jiansong.test.*" />
@@ -81,8 +94,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QueryRunnerTest.testQueryRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day02_jiansong_04account_annoioc_withoutxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiansong.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jiansong.test" />
+      <option name="MAIN_CLASS_NAME" value="com.jiansong.test.QueryRunnerTest" />
+      <option name="METHOD_NAME" value="testQueryRunner" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QueryRunnerTest.testQueryRunner" />
         <item itemvalue="JUnit.AccountServiceTest.testFindAll" />
         <item itemvalue="JUnit.AccountServiceTest.testSave" />
       </list>
@@ -93,12 +123,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3a531276-2e0c-4d24-b270-97bbd408c839" name="Default Changelist" comment="" />
-      <created>1598368749854</created>
+      <changelist id="be785732-69cb-4ff6-8b71-be083b31ae0c" name="Default Changelist" comment="" />
+      <created>1598369977786</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598368749854</updated>
-      <workItem from="1598368754863" duration="1224000" />
+      <updated>1598369977786</updated>
+      <workItem from="1598369981141" duration="2710000" />
     </task>
     <servers />
   </component>
