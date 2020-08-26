@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be785732-69cb-4ff6-8b71-be083b31ae0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/dao/IAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/SpringConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jiansong/test/AccountServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jiansong/test/QueryRunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/SpringConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/SpringConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jiansong/test/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jiansong/test/AccountServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/SpringConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/SpringConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jiansong/test/AccountServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jiansong/test/AccountServiceTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QueryRunnerTest.testQueryRunner">
+  <component name="RunManager" selected="JUnit.AccountServiceTest.testFindAll">
     <configuration name="AccountServiceTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day02_jiansong_04account_annoioc_withoutxml" />
       <extension name="coverage">
@@ -73,6 +71,22 @@
       <option name="PACKAGE_NAME" value="com.jiansong.test" />
       <option name="MAIN_CLASS_NAME" value="com.jiansong.test.AccountServiceTest" />
       <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTest.testFindOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day02_jiansong_04account_annoioc_withoutxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiansong.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jiansong.test" />
+      <option name="MAIN_CLASS_NAME" value="com.jiansong.test.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testFindOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,8 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QueryRunnerTest.testQueryRunner" />
         <item itemvalue="JUnit.AccountServiceTest.testFindAll" />
+        <item itemvalue="JUnit.AccountServiceTest.testFindOne" />
+        <item itemvalue="JUnit.QueryRunnerTest.testQueryRunner" />
         <item itemvalue="JUnit.AccountServiceTest.testSave" />
       </list>
     </recent_temporary>
@@ -128,7 +143,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598369977786</updated>
-      <workItem from="1598369981141" duration="2710000" />
+      <workItem from="1598369981141" duration="3404000" />
+      <workItem from="1598457626270" duration="1867000" />
     </task>
     <servers />
   </component>
@@ -140,7 +156,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

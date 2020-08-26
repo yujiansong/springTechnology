@@ -2,6 +2,7 @@ package com.jiansong.test;
 
 import com.jiansong.domain.Account;
 import com.jiansong.service.IAccountService;
+import config.JdbcConfig;
 import config.SpringConfiguration;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
@@ -33,7 +34,7 @@ public class AccountServiceTest {
         //获取容器
 //        ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
         //得到业务层对象1
-        ApplicationContext ac = new AnnotationConfigApplicationContext(SpringConfiguration.class);
+        ApplicationContext ac = new AnnotationConfigApplicationContext(SpringConfiguration.class, JdbcConfig.class);
 
         IAccountService accountService = ac.getBean("accountService", IAccountService.class);
         Account account = accountService.findAccountById(1);
