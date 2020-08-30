@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54941f15-37d3-48b5-975d-da9b25b41233" name="Default Changelist" comment="" />
+    <list default="true" id="54941f15-37d3-48b5-975d-da9b25b41233" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jiansong/test/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jiansong/test/AccountServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02_jiansong_04account_annoioc_withoutxml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day02_jiansong_04account_annoioc_withoutxml/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02_jiansong_04account_annoioc_withoutxml/src/test/java/com/jiansong/test/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day02_jiansong_04account_annoioc_withoutxml/src/test/java/com/jiansong/test/AccountServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02_jiansong_04account_annoioc_withoutxml/target/test-classes/com/jiansong/test/AccountServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day02_jiansong_04account_annoioc_withoutxml/target/test-classes/com/jiansong/test/AccountServiceTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountServiceTest.testDelete">
+  <component name="RunManager" selected="JUnit.AccountServiceTest.testFindAll">
     <configuration name="AccountServiceTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day02_jiansong_02account_xmlioc" />
       <extension name="coverage">
@@ -128,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountServiceTest.testFindAll" />
         <item itemvalue="JUnit.AccountServiceTest.testDelete" />
         <item itemvalue="JUnit.AccountServiceTest.testUpdate" />
         <item itemvalue="JUnit.AccountServiceTest.testSave" />
         <item itemvalue="JUnit.AccountServiceTest.testFindOne" />
-        <item itemvalue="JUnit.AccountServiceTest.testFindAll" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +155,7 @@
       <workItem from="1598283134905" duration="2179000" />
       <workItem from="1598309200522" duration="2947000" />
       <workItem from="1598368610524" duration="143000" />
+      <workItem from="1598780620943" duration="214000" />
     </task>
     <servers />
   </component>

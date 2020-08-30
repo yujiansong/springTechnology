@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be785732-69cb-4ff6-8b71-be083b31ae0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/JdbcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/SpringConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/SpringConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02_jiansong_02account_xmlioc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day02_jiansong_02account_xmlioc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/jiansong/test/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jiansong/test/AccountServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/SpringConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/SpringConfiguration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/jiansong/test/AccountServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jiansong/test/AccountServiceTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -144,7 +142,9 @@
       <option name="presentableId" value="Default" />
       <updated>1598369977786</updated>
       <workItem from="1598369981141" duration="3404000" />
-      <workItem from="1598457626270" duration="1867000" />
+      <workItem from="1598457626270" duration="2080000" />
+      <workItem from="1598672634318" duration="1303000" />
+      <workItem from="1598778898009" duration="1774000" />
     </task>
     <servers />
   </component>
