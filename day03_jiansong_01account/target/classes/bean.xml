@@ -7,16 +7,21 @@ http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="accountService" class="com.jiansong.service.impl.AccountServiceImpl">
         <!--注入Dao-->
         <property name="accountDao" ref="accountDao"></property>
+        <!-- 注入事务管理器-->
+        <property name="transactionManager" ref="transactionManager"></property>
     </bean>
 
     <!--配置dao对象-->
     <bean id="accountDao" class="com.jiansong.dao.impl.AccountDaoImpl">
         <property name="runner" ref="runner"></property>
+        <!-- 注入ConnectionUtils-->
+        <property name="connectionUtils" ref="connectionUtils"></property>
+
     </bean>
 
     <!--配置QueryRunner-->
     <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">
-        <constructor-arg name="ds" ref="dataSource"></constructor-arg>
+<!--        <constructor-arg name="ds" ref="dataSource"></constructor-arg>-->
     </bean>
 
     <!--配置数据源-->
@@ -26,5 +31,16 @@ http://www.springframework.org/schema/beans/spring-beans.xsd">
         <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/essy?serverTimezone=GMT%2B8"></property>
         <property name="user" value="root"></property>
         <property name="password" value="123456"></property>
+    </bean>
+
+    <!-- 配置Connection的工具类， ConnectionUtils-->
+    <bean id="connectionUtils" class="com.jiansong.utils.ConnectionUtils">
+        <!-- 注入数据源-->
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!--配置事务管理器-->
+    <bean id="transactionManager" class="com.jiansong.utils.TransactionManager">
+        <property name="connectionUtils" ref="connectionUtils"></property>
     </bean>
 </beans>
