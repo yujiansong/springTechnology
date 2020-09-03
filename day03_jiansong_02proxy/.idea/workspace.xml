@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cb7d419-5230-4d04-8c19-0c0d2a18e630" name="Default Changelist" comment="" />
+    <list default="true" id="f01721ca-87a0-4351-af07-13621bbfae48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/proxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/proxy/IProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/proxy/Producer.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,25 +29,12 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1goW0lnIZJIbYu4A02Z6sAbWkio" />
+  <component name="ProjectId" id="1h0ZoRRo2LdRhBPk0vax1dQsIMI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.jiansong.service.impl" />
-      <recent name="com.jiansong.dao.impl" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\springTechnology\day03_jiansong_01account\src\test\java" />
-      <recent name="D:\springTechnology\day03_jiansong_01account\src\main\resources" />
-      <recent name="D:\springTechnology\day03_jiansong_01account\src\main\java" />
-      <recent name="D:\springTechnology\day03_jiansong_01account" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,25 +49,22 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="AccountServiceTest.tetTransfer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day03_jiansong_01account" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiansong.proxy.Client" />
+      <module name="day03_jiansong_02proxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiansong.test.*" />
+          <option name="PATTERN" value="com.jiansong.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jiansong.test" />
-      <option name="MAIN_CLASS_NAME" value="com.jiansong.test.AccountServiceTest" />
-      <option name="METHOD_NAME" value="tetTransfer" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AccountServiceTest.tetTransfer" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -85,15 +73,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8cb7d419-5230-4d04-8c19-0c0d2a18e630" name="Default Changelist" comment="" />
-      <created>1598781204116</created>
+      <changelist id="f01721ca-87a0-4351-af07-13621bbfae48" name="Default Changelist" comment="" />
+      <created>1599150144401</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598781204116</updated>
-      <workItem from="1598781208202" duration="2225000" />
-      <workItem from="1598974883240" duration="2828000" />
-      <workItem from="1599086295831" duration="3173000" />
-      <workItem from="1599150044224" duration="103000" />
+      <updated>1599150144401</updated>
+      <workItem from="1599150147977" duration="1758000" />
     </task>
     <servers />
   </component>
@@ -105,9 +90,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
