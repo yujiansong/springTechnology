@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01721ca-87a0-4351-af07-13621bbfae48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiansong/proxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/proxy/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiansong/proxy/IProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/proxy/IProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiansong/proxy/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/proxy/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiansong/proxy/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiansong/proxy/Client$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiansong/proxy/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiansong/proxy/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiansong/proxy/IProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiansong/proxy/IProducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jiansong/proxy/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiansong/proxy/Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/cglib/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/cglib/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +34,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/jiansong/cglib" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\springTechnology\day03_jiansong_02proxy\src\main\java\com\jiansong\cglib" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,7 +54,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiansong.cglib.Client" />
+      <module name="day03_jiansong_02proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiansong.cglib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiansong.proxy.Client" />
       <module name="day03_jiansong_02proxy" />
@@ -68,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
@@ -83,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599150144401</updated>
       <workItem from="1599150147977" duration="1934000" />
-      <workItem from="1599287165608" duration="2301000" />
+      <workItem from="1599287165608" duration="3210000" />
     </task>
     <servers />
   </component>
