@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01721ca-87a0-4351-af07-13621bbfae48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/proxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/proxy/IProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/proxy/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiansong/proxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/proxy/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiansong/proxy/IProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/proxy/IProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiansong/proxy/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/proxy/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jiansong/proxy/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiansong/proxy/Client$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jiansong/proxy/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiansong/proxy/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jiansong/proxy/IProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiansong/proxy/IProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jiansong/proxy/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiansong/proxy/Producer.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +82,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599150144401</updated>
-      <workItem from="1599150147977" duration="1758000" />
+      <workItem from="1599150147977" duration="1934000" />
+      <workItem from="1599287165608" duration="2301000" />
     </task>
     <servers />
   </component>
@@ -90,7 +95,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

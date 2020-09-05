@@ -8,7 +8,7 @@ public interface IProducer {
      * 销售
      * @param money
      */
-    public void saleProduce(float money);
+    public void saleProduct(float money);
 
     /**
      * 售后
