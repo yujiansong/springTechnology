@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01721ca-87a0-4351-af07-13621bbfae48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/cglib/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/cglib/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03_jiansong_01account/src/main/java/com/jiansong/factory/BeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03_jiansong_01account/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_jiansong_01account/src/main/resources/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03_jiansong_01account/src/test/java/com/jiansong/test/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_jiansong_01account/src/test/java/com/jiansong/test/AccountServiceTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599150144401</updated>
       <workItem from="1599150147977" duration="1934000" />
-      <workItem from="1599287165608" duration="3210000" />
+      <workItem from="1599287165608" duration="4017000" />
     </task>
     <servers />
   </component>

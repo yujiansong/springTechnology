@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cb7d419-5230-4d04-8c19-0c0d2a18e630" name="Default Changelist" comment="" />
+    <list default="true" id="8cb7d419-5230-4d04-8c19-0c0d2a18e630" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/factory/BeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiansong/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiansong/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jiansong/test/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jiansong/test/AccountServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jiansong/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiansong/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jiansong/utils/TransactionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jiansong/utils/TransactionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jiansong/test/AccountServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jiansong/test/AccountServiceTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +66,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AccountServiceTest.tetTransfer">
+    <configuration name="AccountServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day03_jiansong_01account" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiansong.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jiansong.test" />
+      <option name="MAIN_CLASS_NAME" value="com.jiansong.test.AccountServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AccountServiceTest.tetTransfer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day03_jiansong_01account" />
       <extension name="coverage">
@@ -77,6 +101,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AccountServiceTest.tetTransfer" />
+        <item itemvalue="JUnit.AccountServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -94,6 +119,7 @@
       <workItem from="1598974883240" duration="2828000" />
       <workItem from="1599086295831" duration="3173000" />
       <workItem from="1599150044224" duration="103000" />
+      <workItem from="1599292434163" duration="1747000" />
     </task>
     <servers />
   </component>
