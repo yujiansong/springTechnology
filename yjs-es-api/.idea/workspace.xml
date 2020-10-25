@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3fdcf470-1e9d-4939-b450-c6fbd14c4e0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spider-es-jd/src/main/java/com/spider/config/ElasticSearchClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-es-jd/src/main/java/com/spider/controller/ContentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-es-jd/src/main/java/com/spider/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-es-jd/src/main/java/com/spider/pojo/Content.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-es-jd/src/main/java/com/spider/service/ContentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-es-jd/src/main/java/com/spider/utils/HtmlParseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-es-jd/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-es-jd/src/main/resources/static/images/jdlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-es-jd/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-es-jd/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yujiansong-es-api/src/main/java/com/yujiansong/config/ElasticSearchClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yujiansong-es-api/src/main/java/com/yujiansong/pojo/User.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jJm8rE7HCMFIJucQijuM8d0Q7R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spider-es-jd/src/main/java/com/spider" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\springTechnology\yjs-es-api\spider-es-jd\src\main\java\com\spider" />
+      <recent name="D:\springTechnology\yjs-es-api\spider-es-jd\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpiderEsJdApplication">
+    <configuration name="HtmlParseUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spider.utils.HtmlParseUtil" />
+      <module name="spider-es-jd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spider.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YujiansongEsApiApplicationTests.testBulkRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yujiansong-es-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yujiansong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yujiansong" />
+      <option name="MAIN_CLASS_NAME" value="com.yujiansong.YujiansongEsApiApplicationTests" />
+      <option name="METHOD_NAME" value="testBulkRequest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YujiansongEsApiApplicationTests.testDeleteDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yujiansong-es-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yujiansong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yujiansong" />
+      <option name="MAIN_CLASS_NAME" value="com.yujiansong.YujiansongEsApiApplicationTests" />
+      <option name="METHOD_NAME" value="testDeleteDocument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YujiansongEsApiApplicationTests.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yujiansong-es-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yujiansong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yujiansong" />
+      <option name="MAIN_CLASS_NAME" value="com.yujiansong.YujiansongEsApiApplicationTests" />
+      <option name="METHOD_NAME" value="testSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YujiansongEsApiApplicationTests.testUpdateDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yujiansong-es-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yujiansong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yujiansong" />
+      <option name="MAIN_CLASS_NAME" value="com.yujiansong.YujiansongEsApiApplicationTests" />
+      <option name="METHOD_NAME" value="testUpdateDocument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiderEsJdApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spider-es-jd" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spider.SpiderEsJdApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YujiansongEsApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="yujiansong-es-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yujiansong.YujiansongEsApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HtmlParseUtil" />
+        <item itemvalue="JUnit.YujiansongEsApiApplicationTests.testSearch" />
+        <item itemvalue="JUnit.YujiansongEsApiApplicationTests.testBulkRequest" />
+        <item itemvalue="JUnit.YujiansongEsApiApplicationTests.testDeleteDocument" />
+        <item itemvalue="JUnit.YujiansongEsApiApplicationTests.testUpdateDocument" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fdcf470-1e9d-4939-b450-c6fbd14c4e0e" name="Default Changelist" comment="" />
+      <created>1603530411734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603530411734</updated>
+      <workItem from="1603530416138" duration="4359000" />
+      <workItem from="1603589253991" duration="16816000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spider-es-jd/src/main/java/com/spider/controller/ContentController.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spider-es-jd/src/main/java/com/spider/service/ContentService.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
